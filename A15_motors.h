@@ -173,26 +173,3 @@ class A15Motors_PWM {
     uint8_t _speed;
     uint8_t _constSpeed;
 };
-
-class A15Relay {
-  public:
-    A15Relay(uint8_t in) {
-      _in = in;
-      pinMode(_in, 1);
-    }
-
-    void work(uint32_t period) {
-      static uint32_t tmr = millis();
-      if (millis() - tmr >= period) {
-        tmr = millis();
-        digitalWrite(_in, !digitalRead(_in));
-      }
-    }
-
-    void stop() {
-      digitalWrite(_in, 0);
-    }
-
-  private:
-    uint8_t _in;
-};
