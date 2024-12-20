@@ -8,9 +8,6 @@
 #define LF 5
 #define RB 6
 #define LB 7
-#define STOP 8
-#define ON 1
-#define OFF 0
 
 class A15Motors {
   public:
