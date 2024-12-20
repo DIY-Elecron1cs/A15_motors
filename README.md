@@ -39,7 +39,6 @@ LB  //назад и влево
 #include <A15Motors.h>
 
 A15Motors motors(6, 9, 10, 11);
-A15Relay relay(13);
 
 void setup(){
   motors.setSpeed(180);
@@ -47,8 +46,6 @@ void setup(){
 }
 
 void loop(){
-  relay.work(200);
-
   for(int i = 0; i < 4; i++){
     motors.smoothGo(FW);
     motors.smoothBrake(FW);
