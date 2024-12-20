@@ -51,7 +51,6 @@ void loop(){
 
   for(int i = 0; i < 4; i++){
     motors.smoothGo(FW);
-    delay(200);
     motors.smoothBrake(FW);
     motors.smoothGo(L);
     motors.smoothBrake(L);
