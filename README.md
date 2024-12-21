@@ -1,6 +1,8 @@
 # A15_motors
 библиотека для работы с H-мостовыми драйверами моторов!
-Идея и основы — [Arduino15](https://github.com/ArduinoChannel), лежит вот в [этом](https://github.com/ArduinoChannel/A15_motors) репозитории.
+Идея и основы — [Arduino15](https://github.com/ArduinoChannel), лежит вот в [этом](https://github.com/ArduinoChannel/A15_motors) репозитории.  
+ТГК Arduino15: [arduino15](https://t.me/arduino15)  
+Мой ТГК: [DIYelectronics23](https://t.me/DIYelectronics23)  
 
 ## подключение, объекты
 ```cpp
