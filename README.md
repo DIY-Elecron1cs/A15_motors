@@ -6,11 +6,11 @@
 
 ## подключение, объекты
 ```cpp
-#include <A15Motors.h>
+#include <A15_motors.h>
 
-A15Motors motors(rf, rb, lf, lb);  //для "релейного" управления моторами
-A15Motors_PWM motors(enable, rf, rb, lf, lb);  //для плавного управления моторами
-A15Relay relay(in);  //для реле
+A15_motors motors(rf, rb, lf, lb);  //для "релейного" управления моторами
+A15_motors_PWM motors(enable, rf, rb, lf, lb);  //для плавного управления моторами
+A15_relay relay(in);  //для реле
 ```
 ## функции
 ```cpp
@@ -39,9 +39,9 @@ LB  //назад и влево
 ```
 ## пример
 ```cpp
-#include <A15Motors.h>
+#include <A15_motors.h>
 
-A15Motors motors(6, 9, 10, 11);
+A15_motors motors(6, 9, 10, 11);
 
 void setup(){
   motors.setSpeed(180);
