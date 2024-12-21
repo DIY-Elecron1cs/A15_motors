@@ -9,9 +9,9 @@
 #define RB 6
 #define LB 7
 
-class A15Motors {
+class A15_motors {
   public:
-    A15Motors(uint8_t rf, uint8_t rb, uint8_t lf, uint8_t lb) {
+    A15_motors(uint8_t rf, uint8_t rb, uint8_t lf, uint8_t lb) {
       _rf = rf;
       _rb = rb;
       _lf = lf;
@@ -89,9 +89,9 @@ class A15Motors {
     uint8_t _constSpeed;
 };
 
-class A15Motors_PWM {
+class A15_motors_PWM {
   public:
-    A15Motors_PWM(uint8_t enable, uint8_t rf, uint8_t rb, uint8_t lf, uint8_t lb) {
+    A15_motors_PWM(uint8_t enable, uint8_t rf, uint8_t rb, uint8_t lf, uint8_t lb) {
       _enable = enable;
       _rf = rf;
       _rb = rb;
@@ -171,9 +171,9 @@ class A15Motors_PWM {
     uint8_t _constSpeed;
 };
 
-class A15Relay {
+class A15_relay {
   public:
-    A15Relay(uint8_t in) {
+    A15_relay(uint8_t in) {
       _in = in;
       pinMode(_in, 1);
     }
