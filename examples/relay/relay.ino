@@ -1,8 +1,8 @@
-#include <A15Motors.h>
+#include <A15_motors.h>
 
-A15Relay relay1(13);
-A15Relay relay2(0);
-A15Relay relay3(1);
+A15_relay relay1(13);
+A15_relay relay2(0);
+A15_relay relay3(1);
 
 void setup(){
 }
