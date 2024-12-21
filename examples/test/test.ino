@@ -1,6 +1,6 @@
-#include <A15Motors.h>
+#include <A15_motors.h>
 
-A15Motors motors(6, 9, 10, 11);
+A15_motors motors(6, 9, 10, 11);
 
 void setup(){
   motors.setSpeed(180);
