@@ -1,7 +1,7 @@
-A15Motors.h  KEYWORD1
-A15Motors  KEYWORD1
-A15Motors_PWM  KEYWORD1
-A15Relay  KEYWORD1
+A15_motors.h  KEYWORD1
+A15_motors  KEYWORD1
+A15_motors_PWM  KEYWORD1
+A15_relay  KEYWORD1
 
 setSpeed  KEYWORD2
 manualGo  KEYWORD2
